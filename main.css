@@ -1,0 +1,110 @@
+/* Reset some default styles */
+html{
+    font-size: 17px;
+}
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.form-container {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+.h2-header{
+    font-family: 'Arial', sans-serif;
+    color:#3daf2d;
+}
+
+/* Header styles */
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
+  text-align: center;
+  color: #3daf2d;
+}
+
+a {
+    font-weight: 400;
+    color: #3daf2d;
+    text-decoration: none;
+}
+
+/* Navigation styles */
+nav {
+  margin-top: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+/* Post styles */
+.post {
+  background-color: #fff;
+  margin: 20px 0;
+  padding: 40px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.post-user {
+  font-weight: bold;
+}
+
+.input-area {
+    display: block;
+    color: #333;
+    border: 1px solid;
+    border-radius: 3px;
+    margin-top: 10px;
+    width: 240px;
+    height: 30px;
+  }
+  
+  /* Input styles */
+.text-area {
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 3px;
+  }
+/* Button styles */
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3daf2d;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #36952d;
+}
